@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <ImageView
+        android:id="@+id/listviewMenuImg"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <TextView
+        android:id="@+id/listviewMenuTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/listviewMenuImg"
+        android:text=" "
+        android:textSize="26dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="16dp" />
+        <TextView
+            android:id="@+id/listviewMenuRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listviewMenuTitle"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/listviewMenuImg"
+            android:text=" "
+            android:textColor="#a9a9a9"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="35dp" />
+    <TextView
+        android:id="@+id/listviewMenuReleaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listviewMenuTitle"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/listviewMenuImg"
+        android:text=" "
+        android:textColor="#a9a9a9"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="35dp" />
+        <TextView
+            android:id="@+id/listviewMenuGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listviewMenuRating"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/listviewMenuImg"
+            android:text=" "
+            android:textColor="#a9a9a9"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="35dp" />
+</RelativeLayout>
